@@ -32,15 +32,16 @@ def clasificar(image, model):
 
 
 def main():
-    st.set_page_config(page_title="Clasificador de residuos", page_icon="♻️")
 
-        st.markdown(
+    st.markdown(
         """
         <h1 style="text-align: center;">♻️ Clasificador de residuos</h1>
         <h2 style="text-align: center;">Luis Eduardo Sagastume</h2>
         """,
         unsafe_allow_html=True,
     )
+    
+    st.set_page_config(page_title="Clasificador de residuos", page_icon="♻️")
     st.title("♻️ Clasificador de residuos")
     st.title(".Luis Eduardo Sagastume")
     st.write("Fotografía un solo residuo de vidrio, papel, cartón o plástico.")
