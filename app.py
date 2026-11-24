@@ -34,7 +34,7 @@ def clasificar(image, model):
 def main():
     st.set_page_config(page_title="Clasificador de residuos", page_icon="♻️")
     st.title("♻️ Clasificador de residuos")
-    st.title("Luis Eduardo Sagastume")
+    st.title("   Luis Eduardo Sagastume")
     st.write("Fotografía un solo residuo de vidrio, papel, cartón o plástico.")
     source = st.radio("Origen de la imagen", ("Cámara", "Subir foto"), horizontal=True)
     if source == "Cámara":
