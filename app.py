@@ -40,7 +40,6 @@ def main():
         """,
         unsafe_allow_html=True,
     )
-    def main():
     st.set_page_config(page_title="Clasificador de residuos", page_icon="♻️")
     st.title("♻️ Clasificador de residuos")
     st.write("Fotografía un solo residuo de vidrio, papel, cartón o plástico.")
