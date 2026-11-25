@@ -32,14 +32,6 @@ def clasificar(image, model):
 
 
 def main():
-
-    st.markdown(
-        """
-        <h1 style="text-align: center;">♻️ Clasificador de residuos</h1>
-        <h2 style="text-align: center;">Luis Eduardo Sagastume</h2>
-        """,
-        unsafe_allow_html=True,
-    )
     st.set_page_config(page_title="Clasificador de residuos", page_icon="♻️")
     st.title("♻️ Modelo predictivo Reciclaje clase de IA-UTH -2026-Luis Sagastume")
     st.write("Fotografía un solo residuo de vidrio, papel, cartón o plástico.")
